@@ -1,5 +1,11 @@
 import React from 'react';
+// import {signIn} from 'next-auth/react';
 
 export default function () {
-    return <>Hello Next Auth</>;
+    return (
+        <>
+            <button onClick={() => {}}>Sign Up</button>
+            Hello Next Auth
+        </>
+    );
 }
