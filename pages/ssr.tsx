@@ -15,7 +15,7 @@ export default function (data:any) {
 
 
 export const getServerSideProps = async (context:any)=>{
-    const {req,res} = context
+    const {req,res} = context;
     const data = await getServerSession(req,res,authOptions)
     return {
         props:data
