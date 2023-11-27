@@ -18,3 +18,5 @@ Add the schema into schema.prisma
 
 # install prisma client
 npm install @prisma/client
+
+Prisma by default looks for enviroment variables in the .env file
