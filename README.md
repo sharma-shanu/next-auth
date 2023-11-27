@@ -15,6 +15,9 @@
 Add the schema into schema.prisma 
 `npx prisma migrate dev --name init`
 
+To apply the migration from a new project
+`npx prisma migrate dev`
+
 
 # install prisma client
 npm install @prisma/client
